@@ -1,0 +1,7 @@
+#logo {
+    height: 150px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
