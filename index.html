@@ -49,7 +49,7 @@
                 <div class="col-md-auto">
                   <ul class="navbar-nav">
                     <li class="nav-item">
-                      <a href="#" class="nav-link text-bg-dark p-3" title="Free">
+                      <a href="#" class="nav-link text-bg-dark p-3" title="Cart">
                         <span><ion-icon name="cart"></ion-icon></span><span class="text"> CART</span>
                       </a>                       
                     </li>
@@ -124,17 +124,19 @@
           <div class="col-md-auto">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a href="#" class="nav-link" title="Free">0 Item in your 
-                  <span>Cart</span></a>                        
+                <a href="#" class="nav-link" title="Cart">
+                  <span><ion-icon name="cart"></ion-icon></span><span class="text"> CART</span>
+                </a>                       
               </li>
             </ul>
           </div>
           <a href="./main.html" class="nav-link text-danger">HOME</a>
           <a href="./about.html" class="nav-link">ABOUT</a>
           <a href="#" class="nav-link">SHOP</a>
-          <a href="#" class="nav-link">SALE</a>
-          <a href="#" class="nav-link">HOT</a>
-          <a href="#" class="nav-link">CONTACT US</a>
+          <a href="./sale.html" class="nav-link">SALE</a>
+          <a href="./hot.html" class="nav-link">HOT</a>
+          <a href="./sizecharts.html" class="nav-link">SIZE CHART</a>
+          <a href="./contact us.html" class="nav-link">CONTACT US</a>
         </li>
       </ul>
     </div>
@@ -173,20 +175,21 @@
     </main>
     <!-- end of hero section --> 
     <!-- new arrival -->
-    <section id = "collection" class ="py-5">
-      <div class = "container">
-          <div class = "title text-center">
-              <h2 class = "position-relative d-inline-block">New Arrival</h2>
+    <section id="collection" class ="py-5">
+      <div class="container">
+          <div class="title text-center">
+              <h2 class="position-relative d-inline-block">New Arrival</h2>
           </div>
           
-              <div class = "mt-2 row gx-0 gy-3">
-                  <div class = "col-6 p-4">
-                      <div class ="position-relative">
+              <div class="mt-2 row gx-0 gy-3">
+                  <div class="col-6 p-4">
+                      <div class="position-relative">
                           <a href="#" title="BLUE BAPHOMET"><img src = "./image/shop/baphometshirt.png" alt="BLUE BAPHOMET" class ="w-100"></a>
                       </div>
                       <div class="text-center">
                           <h5 class="my-1">BLUE BAPHOMET</h5>
                           <p class="fw-bold">&#8369 500</p>
+                          <button href="#" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#bluebaphomet">Add to Cart</button>
                       </div>
                   </div>
                   <div class = "col-6 p-4">
@@ -218,9 +221,10 @@
                       </div>
                   </div>
               </div>
+             
 
               <div class = "d-flex flex-wrap justify-content-center mt-0">
-                <a href="./sale.html" class="button btn btn-primary" role="button">View more</a>
+                <a href="./hot.html" class="button btn btn-primary" role="button">View more</a>
               </div>
           </div>
       </div>
@@ -231,7 +235,7 @@
       <div class="mt-5 pt-2 pb-5 footer">
         <div class="container">
           <div class="row navbar-collapse justify-content-between">
-            <div class="mb-lg-0 col-xs-12 col-md-7 col-lg-5 col-xl-5">
+            <div class="col-xs-4 col-md-12 col-lg-4 col-xl-5">
               <h2>Grave Warrior</h2>
               <p class="pr-5 text-white-50">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nihil officiis praesentium, eaque corporis ducimus?
@@ -252,7 +256,7 @@
                 </li>
               </ul>
             </div>
-            <div class="mb-lg-0 col-xs-12 col-md-3 col-lg-0 col-xl-3 links">
+            <div class="mb-lg-2 col-xs-4 col-md-6 col-lg-2 col-xl-3 links">
               <h4 class="mt-lg-3 mt-sm-3">Quick Links</h4>
               <ul class="m-0 p-0 text-white">
                 <li>- <a href="./index.html">Home</a></li>                
@@ -263,7 +267,7 @@
                 <li>- <a href="./contact us.html">Contact Us</a></li>
               </ul>
             </div>
-            <div class="mb-lg-0 col-xs-12 col-md-12 col-lg-6 col-xl-3 location">
+            <div class="mt-lg-2 mb-xl-2 col-xs-12 col-md-6 col-lg-4 col-xl-3 location">
               <h4 class="mt-sm-4">Contact</h4>
               <p><span title="Location"><ion-icon name="location"></ion-icon></span> Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</p>
               <p><span title="Call"><ion-icon name="call"></ion-icon></span> (+639) 123-4567</p>
@@ -279,6 +283,37 @@
       </div>
     </footer>
     <!-- end of footer -->
+    <!-- modal -->
+    
+    <div
+      class="modal fade"
+      id="bluebaphomet"
+      tabindex="-1"
+      aria-labelledby="bluebaphomet Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h6 class="modal-title">BLUE BAPHOMET</h6>
+          </div>
+          <div class="modal-body">
+            <img src="./image/shop/baphometshirt.png" class="bluebaphomet img-fluid" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptates odio dolor eius blanditiis architecto saepe omnis atque
+              cumque nisi deleniti?
+            </p>         
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+              Close
+            </button>
+            <button class="btn btn-primary">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- bootstrap javascript -->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <!-- Icon Javascript -->
