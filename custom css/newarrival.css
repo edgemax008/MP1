@@ -1,0 +1,11 @@
+.img-head {
+    overflow: hidden;
+}
+.img-head .pic-item {
+    width: 100%;
+    transition: transform 1.2s;
+}
+
+.img-head:hover .pic-item {
+    transform: scale(1.1);
+}
