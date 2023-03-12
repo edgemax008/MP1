@@ -101,48 +101,54 @@
     </nav>
     <!-- sidebar -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="sidebar" aria-labelledby="sidebar">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="sidebar-title"></h5>
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-title"></h5>
         <button class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <form class="d-flex text-bg-dark p-1 mb-5" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success btn btn-dark text-light" type="submit">Search</button>
+            </form>
+            <div class="dropdown mb-5">
+              <button class="btn btn-success dropdown-toggle col-5" type="button" data-bs-toggle="dropdown">
+                SHOP
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./sale.html">SALE</a></li>
+                <li><a class="dropdown-item" href="./hot.html">HOT</a></li>
+              </ul>
+            </div>
+            <div class="col-md-auto d-flex">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link" title="Free">FREE
+                    <span>Shipping</span>
+                    <span>Nationwide</span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-auto">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link" title="Cart">
+                    <span><ion-icon name="cart"></ion-icon></span><span class="text"> CART</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a href="./index.html" class="nav-link">HOME</a>
+            <a href="./about.html" class="nav-link text-danger">ABOUT</a>
+            <a href="./sizecharts.html" class="nav-link">SIZE CHART</a>
+            <a href="./contact us.html" class="nav-link">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <form class="d-flex text-bg-dark p-1 mb-5" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success btn btn-dark text-light" type="submit">Search</button>
-          </form>
-          <div class="col-md-auto d-flex">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link" title="Free">FREE  
-                  <span>Shipping</span>
-                  <span>Nationwide</span></a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-auto">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a href="#" class="nav-link" title="Cart">
-                  <span><ion-icon name="cart"></ion-icon></span><span class="text"> CART</span>
-                </a>                       
-              </li>
-            </ul>
-          </div>
-          <a href="./main.html" class="nav-link text-danger">HOME</a>
-          <a href="./about.html" class="nav-link">ABOUT</a>
-          <a href="#" class="nav-link">SHOP</a>
-          <a href="./sale.html" class="nav-link">SALE</a>
-          <a href="./hot.html" class="nav-link">HOT</a>
-          <a href="./sizecharts.html" class="nav-link">SIZE CHART</a>
-          <a href="./contact us.html" class="nav-link">CONTACT US</a>
-        </li>
-      </ul>
-    </div>
-    </div>
-    </header>
-    <!-- end of sidebar -->
+  </header>
+  <!-- end of sidebar -->
     <!-- end of navbar -->
     <!-- gravewarrior gif -->
     <div class = "col-0" id="background">
