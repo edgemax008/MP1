@@ -13,8 +13,8 @@ h4 {
 .social li {
     display: inline-block;
     background-color: #d1d1d1;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
     line-height: 30px;
@@ -23,7 +23,7 @@ h4 {
 
 .social li a .social-item {
     padding-top: 5px;    
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .social li a {
@@ -54,8 +54,7 @@ footer .links li a:hover {
 
 .footer .copyright p {
     color: rgb(117, 24, 24);
-    font-size: 1.5rem;
     text-shadow: 1px 1px black;
-    border-top: 1px solid rgb(255, 255, 255, 0.8);
-    border-bottom: 1px solid rgb(255, 255, 255, 0.8);
+    border-top: 1px solid rgba(14, 14, 14, 0.8);
+    border-bottom: 1px solid rgb(14, 14, 14, 0.8);
 }
