@@ -6,3 +6,21 @@ body {
 .indexbody {
     padding-top: 165px;
 }
+
+@font-face {
+    font-family: cruiser;
+    src: url(../font/aircruiser.ttf);
+}
+
+@font-face {
+    font-family: valorant;
+    src: url(../font/valorant.ttf);
+}
+
+.newarrival-font {
+    font-family: cruiser;
+}
+
+.newarrival-item-font {
+    font-family: valorant;
+}
