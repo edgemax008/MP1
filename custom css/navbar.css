@@ -5,7 +5,3 @@
 .dropdown:hover .dropdown-menu {
     display: block;
 }
-
-.navbar-font {
-    font-family: cruiser;
-}

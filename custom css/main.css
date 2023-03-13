@@ -1,6 +1,10 @@
 body {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(117, 24, 24);
     scroll-behavior: smooth;
+}
+
+.text-danger {
+    color: rgb(117, 24, 24)!important;
 }
 
 .indexbody {
@@ -17,10 +21,19 @@ body {
     src: url(../font/valorant.ttf);
 }
 
+@font-face {
+    font-family: pubg;
+    src: url(../font/pubg.ttf);
+}
+
 .newarrival-font {
     font-family: cruiser;
 }
 
 .newarrival-item-font {
     font-family: valorant;
+}
+
+.newarrival-font1 {
+    font-family: pubg;
 }
