@@ -8,7 +8,7 @@ body {
 }
 
 .indexbody {
-    padding-top: 165px;
+    padding-top: 150px;
 }
 
 @font-face {
@@ -16,39 +16,10 @@ body {
     src: url(../font/aircruiser.ttf);
 }
 
-@font-face {
-    font-family: valorant;
-    src: url(../font/valorant.ttf);
-}
-
-@font-face {
-    font-family: pubg;
-    src: url(../font/pubg.ttf);
-}
-
-@font-face {
-    font-family: american;
-    src: url(../font/american.otf);
-}
-
-@font-face {
-    font-family: captain;
-    src: url(../font/captain.ttf);
-}
-
-@font-face {
-    font-family: bebas;
-    src: url(../font/bebas.ttf);
-}
-
 .newarrival-font {
     font-family: cruiser;
 }
 
 .newarrival-item-font {
-    font-family: valorant;
-}
-
-.newarrival-font1 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
