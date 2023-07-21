@@ -141,14 +141,14 @@ function displayCart() {
                 <img src="./image/cart/${item.tag}.png">
                 <span>${item.name}</span>
             </div>
-            <div class="price">P${item.price},00</div>
+            <div class="price">₱${item.price}.00</div>
             <div class="quantity">
                 <ion-icon name="arrow-back-circle"></ion-icon>
                 <span>${item.inCart}</span>
                 <ion-icon name="arrow-forward-circle"></ion-icon>
             </div>
             <div class="total">
-                P${item.inCart * item.price},00
+                ₱${item.inCart * item.price}.00
             </div>
             `;
         });
@@ -159,7 +159,7 @@ function displayCart() {
                     Cart Total:
                 </h4>
                 <h4 class="basketTotal">
-                    P${cartCost},00
+                ₱${cartCost}.00
                 </h4>
         `
     }
