@@ -137,15 +137,15 @@ function displayCart() {
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
-                <ion-icon name="close-circle"></ion-icon>
+                <button class="btn btn-danger"><ion-icon name="close-circle"></ion-icon></button>
                 <img src="./image/cart/${item.tag}.png">
                 <span>${item.name}</span>
             </div>
             <div class="price">₱${item.price}.00</div>
             <div class="quantity">
-                <ion-icon name="arrow-back-circle"></ion-icon>
+                <button class="btn btn-delete"><ion-icon name="arrow-back-circle"></ion-icon></button>
                 <span>${item.inCart}</span>
-                <ion-icon name="arrow-forward-circle"></ion-icon>
+                <button class="btn btn-addquan"><ion-icon name="arrow-forward-circle"></ion-icon></button>
             </div>
             <div class="total">
                 ₱${item.inCart * item.price}.00
